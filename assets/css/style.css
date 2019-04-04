@@ -1,0 +1,27 @@
+
+
+
+/* ------------------------- Header */
+
+
+.brandname {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    position: relative;
+    color: #746060;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.header-container {
+    position: absolute;
+}

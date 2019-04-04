@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Japanese Culture Social Club</title>
 </head>
@@ -28,7 +29,7 @@
 
 
             <ul class="navbar-nav mr-auto">
-                
+
                 <li class="active nav-item mr-2">
                     <a class="nav-link" href="/about">About</a>
                 </li>
@@ -51,25 +52,53 @@
 
     </nav>
 
-
-
     <article class="container-fluid mt-3 header-container">
 
+        <! ------ The Jumbotron >
 
-        <div class="jumbotron">
-            <h1 class="callout">Welcome to the <br>
-                <span class="brandname uppercase">Japanese Culture Social Club Berlin</span></h1>
-            <p class="lead maintext">We are a group of Japanese culture enthusiasts who organize regular events on various aspects of Japanese culture. Read all about us, browse our event catalogue, and join us!</p>
-            <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Join us -- it's free!</a>
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <h1 class="callout">Welcome to the <br>
+                        <span class="brandname uppercase">Japanese Culture Social Club Berlin</span></h1>
+                    <hr class="my-4">
+                    <button class="btn btn--white btn-lg" data-toggle="modal" data-target="#signUpModal"><span class="modaltext">Join us - it's free!</span></button>
+                </div>
+            </div>
         </div>
-
     </article>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Welcome!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                     </button>
+                </div>
+                <div class="modal-body">
+                    <p>Sign up to stay informed on all upcoming events:</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Full name:</label>
+                            <input class="form-control form-control" type="text" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 
 </body>

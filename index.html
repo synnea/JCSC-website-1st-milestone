@@ -11,21 +11,50 @@
 </head>
 
 <body>
-    <div class="container-fluid header-container">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">JCSC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Events</a>
-                    <a class="nav-item nav-link" href="#">Join Us</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
-            </div>
-        </nav>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">JCSC</a>
+
+
+        <! ----------- The dropdown button >
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+        <! ----- the navbar items >
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="active nav-item mr-2">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Upcoming Events</a>
+                        <a class="dropdown-item" href="#">Past Events</a>
+                    </div>
+                </li>
+
+                <li class="active nav-item mr-2">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+    <article class="container-fluid mt-3 header-container">
+
 
         <div class="jumbotron">
             <h1 class="callout">Welcome to the <br>
@@ -34,8 +63,14 @@
             <hr class="my-4">
             <a class="btn btn-primary btn-lg" href="#" role="button">Join us -- it's free!</a>
         </div>
-        
-    </div>
+
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 
 </body>
 

@@ -13,44 +13,54 @@
 
 <body>
 
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">JCSC</a>
+    <div class="container-fluid navbar-container">
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <a href="/" class="navbar-brand">JCSC</a>
 
 
-        <! ----------- The dropdown button >
+            <! ----------- The dropdown button >
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-
-        <! ----- the navbar items >
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
 
+            <! ----- the navbar items >
 
-            <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-                <li class="active nav-item mr-2">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <ul class="navbar-nav nav-fill w-100" id="menuButtons">
+
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+
+                    <!-------  <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Events
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Upcoming Events</a>
-                        <a class="dropdown-item" href="#">Past Events</a>
-                    </div>
-                </li>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Upcoming Events</a>
+                            <a class="dropdown-item" href="#">Past Events</a>
+                        </div>
+                    </li> --->
 
-                <li class="active nav-item mr-2">
-                    <a class="nav-link" href="/contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="/about">Upcoming Events</a>
+                    </li>
 
-    </nav>
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="/about">Past Events</a>
+                    </li>
+
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
 
     <article class="container-fluid mt-3 header-container">
 

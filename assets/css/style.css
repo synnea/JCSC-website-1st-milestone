@@ -187,9 +187,11 @@ container-wrapper--u-events {
 }
 
 .u-events-heading {
-    text-align: center;
     color: #fff;
-    display:block;
+    font-family: "Raleway", sans-serif;
+    padding-left: 10%;
+    margin:50px;
+    white-space: nowrap;
 }
 
 

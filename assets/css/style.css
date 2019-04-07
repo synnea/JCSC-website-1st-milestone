@@ -118,7 +118,7 @@
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
-    
+
 
 }
 
@@ -143,25 +143,59 @@
     margin-top: 20px;
 }
 
+
+
+/* ----------------- Current Events */
+
+container-wrapper--u-events {
+    margin: 0;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 765px) {
+    .card {
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+}
+
+
+.u-events-container {
+    background-color: #27070a !important;
+}
+
+.card-img-bottom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 20%;
+}
+
 /* ----------------- Footer */
 
 .footer-container {
-    padding:0;
+    padding: 0;
 }
 
 
 #footer-details {
-    padding-top:20px;
+    padding-top: 20px;
     font-family: "Lato", sans-serif;
     font-size: 1.2em;
     padding-left: 70px;
     background-color: #6b121b !important;
-    color: #fff !important; 
+    color: #fff !important;
 }
 
-.events-pdf
-{
-    display:block;
+.events-pdf {
+    display: block;
 }
 
 .footer-brand {
@@ -175,7 +209,7 @@
 
 .download-callout {
     font-size: 0.7em;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .download-icon,
@@ -184,16 +218,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: #fff !important;
-    
+
 }
+
 
 
 
 /* ----------------- Copyright */
 
-
 .footer-copyright {
-    margin:0;
+    margin: 0;
 }
 
 #copyright-details {
@@ -201,7 +235,7 @@
     font-family: "Lato", sans-serif;
     font-size: 0.8em;
     background-color: #27070a !important;
-    color: #fff !important; 
+    color: #fff !important;
 }
 
 .copyright-name {

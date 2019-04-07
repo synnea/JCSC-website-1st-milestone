@@ -108,7 +108,40 @@
 }
 
 
+/* ----------------- About Page */
 
+.about-container {
+    margin-top: 0 !important;
+    background: url(/assets/images/cat.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+    
+
+}
+
+@media (max-width: 767px) {
+    .about-container {
+        background: url(/assets/images/cat.jpg) no-repeat top right fixed;
+    }
+}
+
+.about-text-container {
+    font-family: "Raleway", sans-serif;
+    padding: 15px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.discount-shoutout {
+    font-size: 1.4em;
+}
+
+.about-p-text-container {
+    margin-top: 20px;
+}
 
 /* ----------------- Footer */
 

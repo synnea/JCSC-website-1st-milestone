@@ -145,7 +145,7 @@
 
 
 
-/* ----------------- Current Events */
+/* ----------------- Upcoming Events */
 
 container-wrapper--u-events {
     margin: 0;
@@ -177,6 +177,22 @@ container-wrapper--u-events {
   width: 40%;
   height: 20%;
 }
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #6b121b;
+}
+
+.u-events-heading {
+    text-align: center;
+    color: #fff;
+    display:block;
+}
+
+
 
 /* ----------------- Footer */
 

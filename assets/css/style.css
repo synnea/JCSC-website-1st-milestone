@@ -30,7 +30,7 @@
 
 /* ------------------------- Header */
 
-.header-container {
+.container-wrapper--lp {
     margin-top: 0 !important;
     height: 100vh;
     background: url(/assets/images/bg-pic.jpg) no-repeat center center fixed;

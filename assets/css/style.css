@@ -212,6 +212,7 @@ container-wrapper--p-events {
 
 .p-events-container {
     background-color: #000 !important;
+
 }
 
 
@@ -231,6 +232,12 @@ container-wrapper--p-events {
     margin-bottom:30px;
     max-width:80;
     padding-left:50px;
+}
+
+
+
+.p-events-row {
+    display:block;
 }
 
 /* ----------------- Footer */
@@ -301,3 +308,4 @@ container-wrapper--p-events {
 
 
 /* ----------------- Body */
+

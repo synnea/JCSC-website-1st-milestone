@@ -187,21 +187,58 @@ container-wrapper--u-events {
 }
 
 .u-events-heading {
-    color: #fff;
+    color: #fff !important;
     font-family: "Raleway", sans-serif;
     padding-left: 10%;
-    margin:50px;
-    white-space: nowrap;
+    margin-top:50px;
+    margin-bottom:30px;
+    max-width:80;
+}
+
+@media (min-width: 768px) {
+    .u-events-heading {
+        white-space: nowrap;
+    }
 }
 
 
+
+
+/* ----------------- Past Events */
+
+container-wrapper--p-events {
+    margin: 0;
+}
+
+.p-events-container {
+    background-color: #000 !important;
+}
+
+
+.spotify-pics {
+    max-width: 80%;
+    height: auto;
+}
+
+.spotify-songs {
+    max-width: 80%;
+}
+
+.p-events-heading {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin-top:50px;
+    margin-bottom:30px;
+    max-width:80;
+    padding-left:50px;
+}
 
 /* ----------------- Footer */
 
 .footer-container {
-    padding: 0;
+    margin:0;
+    width:100%;
 }
-
 
 #footer-details {
     padding-top: 20px;
@@ -260,3 +297,7 @@ container-wrapper--u-events {
     text-decoration: none;
     color: #fff;
 }
+
+
+
+/* ----------------- Body */

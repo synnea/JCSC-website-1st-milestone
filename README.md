@@ -8,7 +8,7 @@ https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
 
 https://css-tricks.com/fun-viewport-units/
 
-caught the fact that I've been developing from a desktop-first approach. fixed it.
+caught the fact that I've been developing from a desktop-first approach. fixed it with the cards and the cat background.
 
 to-do: put button instead of free for monthly meetup card
 

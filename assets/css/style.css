@@ -228,13 +228,19 @@ container-wrapper--p-events {
 }
 
 
+.html5-video-container {
+    height: 60% !important;
+    width: 60% !important;
+}
+
 /* Styling for the YouTube Video */
 
+
+/*
 .yt-frame {
 
-padding-left:20vh;
-padding-right:20vh;
-max-width: 100%;
+width: 60%;
+height: 40%;
 margin-bottom: 20vh;
     
 }
@@ -250,7 +256,7 @@ padding: 0;
     }
 }
 
-
+*/
 
 .spotify-box {
     margin-top:20%;

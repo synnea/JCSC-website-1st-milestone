@@ -211,7 +211,7 @@ container-wrapper--p-events {
     margin: 0;
 }
 
-.p-events-container {
+.p-events {
     background-color: #000 !important;
 
 }
@@ -236,27 +236,7 @@ container-wrapper--p-events {
 /* Styling for the YouTube Video */
 
 
-/*
-.yt-frame {
 
-width: 60%;
-height: 40%;
-margin-bottom: 20vh;
-    
-}
-
-
-
-@media (max-width: 768px) {
-    .yt-frame {
-padding: 0;
-        width: 100%;
-        height: 100%;
-        margin-bottom:10%;
-    }
-}
-
-*/
 
 .spotify-box {
     margin-top:20%;

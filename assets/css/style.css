@@ -151,7 +151,7 @@ container-wrapper--u-events {
 }
 
 .card-container {
-    margin-top: 5vh;
+    margin-top: 0;
     padding-bottom: 15vh;
 }
 
@@ -193,10 +193,9 @@ container-wrapper--u-events {
     color: #fff;
     text-align: center;
     font-family: "Raleway", sans-serif;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     max-width: 80;
-    padding-left: 50px;
 }
 
 @media (min-width: 768px) {
@@ -224,10 +223,9 @@ container-wrapper--p-events {
     color: #fff;
     text-align: center;
     font-family: "Raleway", sans-serif;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     max-width: 80;
-    padding-left: 50px;
 }
 
 
@@ -244,8 +242,7 @@ container-wrapper--p-events {
 }
 
 .yt-container {
-    margin-top: 10%;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .spotify-box {
@@ -267,7 +264,6 @@ container-wrapper--p-events {
 
 /* ----------------- Contact */
 
-
 .contact-container {
     background-color: #27070a;
 }
@@ -276,10 +272,12 @@ container-wrapper--p-events {
     color: #fff;
     text-align: center;
     font-family: "Raleway", sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 0;
+    max-width: 80;
 }
 
 .center-form {
-    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }

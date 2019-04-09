@@ -7,3 +7,7 @@ https://stackoverflow.com/questions/22433616/how-can-i-align-youtube-embedded-vi
 https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
 
 https://css-tricks.com/fun-viewport-units/
+
+to-do: put button instead of free for monthly meetup card
+
+change hover class of bottom JSCS

@@ -216,11 +216,12 @@ container-wrapper--p-events {
 
 }
 
+
 .spotify-box {
+    margin-top:0;
+    margin-left: 15%;
     display: inline-block;
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+
 }
 
 .spotify-pics {
@@ -243,13 +244,10 @@ container-wrapper--p-events {
 }
 
 
-
-
 .yt-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 15vh;
-    height: 0;
+   display: block;
+   margin: 0 auto;
 }
 
 .yt-frame {

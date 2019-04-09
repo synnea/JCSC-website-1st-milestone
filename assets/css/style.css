@@ -264,7 +264,35 @@ container-wrapper--p-events {
     max-width: 80%;
 }
 
+
+/* ----------------- Contact */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* The submit button's background color matches navbar and footer */
+
+button[type="submit"] {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: #fff;
+    background-color: #6b121b;
+}
+
+
 /* ----------------- Footer */
+
+/* ----------------- Note: the footer's background color matches the navbar's */
 
 .footer-container {
     margin: 0;

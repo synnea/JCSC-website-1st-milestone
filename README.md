@@ -8,6 +8,8 @@ https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
 
 https://css-tricks.com/fun-viewport-units/
 
+caught the fact that I've been developing from a desktop-first approach. fixed it.
+
 to-do: put button instead of free for monthly meetup card
 
 change hover class of bottom JSCS

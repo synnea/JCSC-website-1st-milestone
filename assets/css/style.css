@@ -267,17 +267,30 @@ container-wrapper--p-events {
 
 /* ----------------- Contact */
 
+
+.contact-container {
+    background-color: #27070a;
+}
+
 .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
 }
 
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 10vh;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
 
 /* The submit button's background color matches navbar and footer */

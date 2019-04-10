@@ -341,6 +341,9 @@ button[type="submit"] {
     margin-bottom: 5vh;
     color: #fff;
     background-color: #6b121b;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 button[type="submit"]:hover {

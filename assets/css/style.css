@@ -174,7 +174,7 @@ container-wrapper--u-events {
 
 .card {
     width: 80%;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem !important;
     margin: 0 auto;
     float:none;
 }

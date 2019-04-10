@@ -10,6 +10,16 @@ https://css-tricks.com/fun-viewport-units/
 
 caught the fact that I've been developing from a desktop-first approach. fixed it with the cards and the cat background.
 
+standardized heading style by using vh top and bottom, except for on the last item 
+
+HTML validator tells me not to use fixed height and width with the Spotify plugins, but the Fiona Apple website begs to differ.
+
+
+
+
+
+
+
 to-do: put button instead of free for monthly meetup card
 
 change hover class of bottom JSCS

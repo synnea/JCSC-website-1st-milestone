@@ -168,13 +168,13 @@ container-wrapper--u-events {
 
 .card-container {
     margin-top: 0;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
 }
 
 
 .card {
     width: 80%;
-    margin-bottom: 5rem !important;
+    margin-bottom: 5% !important;
     margin: 0 auto;
     float:none;
 }
@@ -206,7 +206,6 @@ container-wrapper--u-events {
     font-family: "Raleway", sans-serif;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    max-width: 80%;
 }
 
 @media (min-width: 768px) {
@@ -238,20 +237,21 @@ container-wrapper--p-events {
     font-family: "Raleway", sans-serif;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    max-width: 80%;
 }
 
-
-/* Styling for the YouTube Video */
 
 .p-events {
     margin: 0;
     padding: 0;
 }
 
+/* Styling for the YouTube Video */
+
 .yt-container {
     margin: 0;
 }
+
+/* Styling for the Spotify Songs */
 
 .spotify-box {
     margin-top: 15%;

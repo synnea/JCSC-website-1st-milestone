@@ -79,7 +79,7 @@
     text-align: center;
 }
 
-.opaque-overlay {
+.lp-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -231,11 +231,6 @@ container-wrapper--p-events {
 }
 
 
-.html5-video-container {
-    height: 60% !important;
-    width: 60% !important;
-}
-
 /* Styling for the YouTube Video */
 
 .p-events {
@@ -279,7 +274,7 @@ container-wrapper--p-events {
 
 .contact-overlay {
     background-color: rgba(0, 0, 0, 0.4);
-width:100%;
+    width:100%;
 }
 
 
@@ -293,9 +288,26 @@ with the aim to increase legibility */
     font-weight: bolder;
     font-size: 2rem;
     margin-top: 10vh;
-    margin-bottom: 10vh;
-    max-width: 80;
+    margin-bottom: 5vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.contact-p {
+    margin-bottom:5vh !important;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+/* Media Query to eliminate the bottom margin for desktop views */
+
+@media (min-width: 992px)  {
+    .contact-p {
+        margin-bottom: 0 !important;
+    }
 }
 
 .center-form {
@@ -303,6 +315,9 @@ with the aim to increase legibility */
     max-width: 70%;
 }
 
+.contact-container {
+    margin-bottom: 0 !important;
+}
 
 @media(min-width: 992px) {
     .center-form {
@@ -321,6 +336,10 @@ button[type="submit"] {
     background-color: #6b121b;
 }
 
+button[type="submit"]:hover {
+    background-color: #27070a;
+}
+
 .form-check-label {
     color: #fff !important;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -328,14 +347,6 @@ button[type="submit"] {
     font-family: "Lato", sans-serif;
 }
 
-.contact-p {
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 1.3rem;
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    
-}
 
 /* ----------------- Footer */
 

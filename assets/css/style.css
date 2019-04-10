@@ -49,19 +49,8 @@
 
 }
 
-/*
-.brandname {
-    display: block;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-*/
+/* In the following stylings, the size of the margins and font size change depending on the display size, with a smaller font
+size for mobile */
 
 .callout {
     font-family: 'Raleway', sans-serif;
@@ -79,7 +68,7 @@
 
 @media (min-width: 992px) {
     .callout {
-        margin-top: 5vh;
+        margin-top: 7vh;
         margin-bottom: 7vh;
         font-size: 2.5rem;
     }

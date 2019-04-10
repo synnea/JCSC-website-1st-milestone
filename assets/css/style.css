@@ -21,12 +21,15 @@
     margin-top: -8px;
 }
 
+/* Coloring for the navbar link items */
+
 .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #fff !important;
 }
+
 
 /* ------------------------- Header */
 
@@ -313,6 +316,10 @@ with the aim to increase legibility */
 .center-form {
     margin: 0 auto;
     max-width: 70%;
+}
+
+.form-control {
+    margin-bottom: 3vh;
 }
 
 .contact-container {

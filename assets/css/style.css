@@ -92,9 +92,6 @@
 }
 
 
-
-/* ----------------- Buttons */
-
 .btn--white {
     font-weight: bold;
     border-radius: 20px;
@@ -271,13 +268,13 @@ container-wrapper--p-events {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-overlay {
     background-color: rgba(0, 0, 0, 0.4);
-    width:100%;
+    width: 100%;
 }
 
 
@@ -297,7 +294,7 @@ with the aim to increase legibility */
 
 
 .contact-p {
-    margin-bottom:5vh !important;
+    margin-bottom: 5vh !important;
     color: #fff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 1.3rem;
@@ -307,7 +304,7 @@ with the aim to increase legibility */
 
 /* Media Query to eliminate the bottom margin for desktop views */
 
-@media (min-width: 992px)  {
+@media (min-width: 992px) {
     .contact-p {
         margin-bottom: 0 !important;
     }
@@ -341,7 +338,7 @@ button[type="submit"] {
     margin-bottom: 5vh;
     color: #fff;
     background-color: #6b121b;
- 
+
 }
 
 button[type="submit"]:hover {
@@ -418,27 +415,15 @@ button[type="submit"]:hover {
 
 
 
+/* Responsiveness of the Download Icon */
 
-/* ----------------- Copyright */
-
-.footer-copyright {
-    margin: 0;
+.download-icon {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-#copyright-details {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 0.8em;
-    background-color: #27070a !important;
-    color: #fff !important;
+.download-icon:hover {
+    background: #27070a
 }
-
-.copyright-name {
-    text-decoration: none;
-    color: #fff;
-}
-
-
-
-/* ----------------- Body */
-

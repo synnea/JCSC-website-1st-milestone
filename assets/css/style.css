@@ -272,6 +272,14 @@ container-wrapper--p-events {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+width:100%;
 }
 
 
@@ -399,3 +407,4 @@ button[type="submit"] {
 
 
 /* ----------------- Body */
+

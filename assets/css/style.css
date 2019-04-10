@@ -297,7 +297,7 @@ with the aim to increase legibility */
     margin-bottom:5vh !important;
     color: #fff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: "Lato", sans-serif;
     text-align: center;
 }
@@ -327,7 +327,7 @@ with the aim to increase legibility */
     }
 }
 
-/* The submit button's background color matches navbar and footer */
+/* The submit button's background color matches navbar and footer, changes to the color of the copyright section upon hover */
 
 button[type="submit"] {
     margin-top: 3vh;
@@ -343,7 +343,7 @@ button[type="submit"]:hover {
 .form-check-label {
     color: #fff !important;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Lato", sans-serif;
 }
 

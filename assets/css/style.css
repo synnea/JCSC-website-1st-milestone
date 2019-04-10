@@ -46,7 +46,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
 
 /* In the following stylings, the size of the margins and font size change depending on the display size, with a smaller font
@@ -55,11 +54,11 @@ size for mobile */
 .callout {
     font-family: 'Raleway', sans-serif;
     color: #fff;
-     display: block;
-     margin-top: 2vh;
-     margin-bottom: 5vh;
-     font-weight: 700;
-     font-size: 2rem;
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .brandname {
@@ -90,7 +89,7 @@ size for mobile */
     padding-right: 10%;
     text-align: center;
     padding-top: 0;
-    margin-top:0;
+    margin-top: 0;
 }
 
 /* ------------------------- The following overlay adds a layer over the background picture,
@@ -176,7 +175,7 @@ container-wrapper--u-events {
     width: 80%;
     margin-bottom: 5% !important;
     margin: 0 auto;
-    float:none;
+    float: none;
 }
 
 
@@ -425,4 +424,15 @@ button[type="submit"]:hover {
 
 .footer-container i:hover {
     background: #27070a
+}
+
+
+
+/* Body  */
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: auto!important;
 }

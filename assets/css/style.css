@@ -371,10 +371,13 @@ button[type="submit"]:hover {
 
 .footer-element {
     text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    max-height: 10vh;
 }
 
-.social-container {
-    text-align: center;
+.footer-brand {
+    text-decoration: none;
 }
 
 #footer-details {

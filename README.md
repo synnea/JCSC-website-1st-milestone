@@ -6,6 +6,8 @@ https://stackoverflow.com/questions/22433616/how-can-i-align-youtube-embedded-vi
 
 https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
 
+https://stackoverflow.com/questions/2570972/css-font-border
+
 https://css-tricks.com/fun-viewport-units/
 
 caught the fact that I've been developing from a desktop-first approach. fixed it with the cards and the cat background.

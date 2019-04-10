@@ -49,6 +49,7 @@
 
 }
 
+/*
 .brandname {
     display: block;
     font-family: 'Raleway', sans-serif;
@@ -60,9 +61,28 @@
     padding-bottom: 20px;
 }
 
+*/
+
 .callout {
     font-family: 'Raleway', sans-serif;
     color: #fff;
+     display: block;
+     margin-top: 2vh;
+     margin-bottom: 5vh;
+     font-weight: 700;
+     font-size: 2rem;
+}
+
+.brandname {
+    margin-top: 1vh;
+}
+
+@media (min-width: 992px) {
+    .callout {
+        margin-top: 5vh;
+        margin-bottom: 7vh;
+        font-size: 2.5rem;
+    }
 }
 
 
@@ -80,7 +100,12 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
+    padding-top: 0;
+    margin-top:0;
 }
+
+/* ------------------------- The following overlay adds a layer over the background picture,
+allowing the text to be more easily legible */
 
 .lp-overlay {
     position: absolute;
@@ -115,6 +140,8 @@
     background: url(/assets/images/cat.jpg) no-repeat top right fixed;
 
 }
+
+/* ----------------- The following media query re-positions the background picture to the center */
 
 @media (min-width: 768px) {
     .about-container {
@@ -159,13 +186,8 @@ container-wrapper--u-events {
 .card {
     width: 80%;
     margin-bottom: 5rem;
-}
-
-@media (min-width: 992px) {
-    .card {
-        margin: 0 auto;
-        float: none;
-    }
+    margin: 0 auto;
+    float:none;
 }
 
 

@@ -365,6 +365,14 @@ button[type="submit"]:hover {
     background-color: #6b121b;
 }
 
+.footer-heading {
+    color: #fff;
+}
+
+.footer-element {
+    text-align: center;
+}
+
 .social-container {
     text-align: center;
 }

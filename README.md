@@ -10,6 +10,8 @@ https://stackoverflow.com/questions/2570972/css-font-border
 
 https://css-tricks.com/fun-viewport-units/
 
+https://stackoverflow.com/questions/13648979/bootstrap-modal-immediately-disappearing
+
 caught the fact that I've been developing from a desktop-first approach. fixed it with the cards and the cat background.
 
 standardized heading style by using vh top and bottom, except for on the last item 

@@ -400,30 +400,18 @@ button[type="submit"]:hover {
 }
 
 .download-callout {
-    font-size: 0.7em;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #fff;
 }
 
-.download-icon,
-.social-icon {
+
+/* Change of the download and social link icons upon hover - background changes to dark red  */
+
+.footer-container i {
     font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
     color: #fff !important;
-
 }
 
-
-
-/* Responsiveness of the Download Icon */
-
-.download-icon {
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.download-icon:hover {
+.footer-container i:hover {
     background: #27070a
 }

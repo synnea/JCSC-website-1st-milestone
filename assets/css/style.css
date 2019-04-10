@@ -314,7 +314,19 @@ button[type="submit"] {
 }
 
 .form-check-label {
-    color: #000 !important;
+    color: #fff !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
+}
+
+.contact-p {
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    
 }
 
 /* ----------------- Footer */

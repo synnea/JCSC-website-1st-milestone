@@ -61,7 +61,9 @@ At this stage, I created mockups via Balsamiq. The Balsamiq file as well as a .p
 The original mockup shows several important differences to the finished product. Here are some of the most important differences, and why the finished product varies from the mockup:
 
 * The original desing did not contain a "Past Events" section. This was included later to serve the technical requirement of including iframes in the website, as well as giving further information to the user.
-* The monthly meetup was originally given a lot more page real estate with its own distinct section. In the finished product, it is represented in a card, similar to all the other events. 
+* The monthly meetup was originally given a lot more page real estate with its own distinct section. In the finished product, it is represented in a card, similar to all the other events, for visual symmetry. Instead, in order to visually emphasize its uniqueness, it was given a green button that spells 'Free!'
+* The footer originally contained an address and phone number. This was later removed. The reason for that is that the idea to include a .pdf brochure of upcoming events came later in the development process. Additionally, since our target is young and cosmopolitan, a phone number is less needed these days. Also, since JCSC doesn't have a fixed office building, an address was likewise judged superfluous.
+
 
 
 https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4

@@ -78,6 +78,12 @@ size for mobile */
     font-family: 'Raleway', sans-serif;
 }
 
+.modal-button {
+    position: absolute;
+    margin: 0 auto;
+    float:none;
+}
+
 .uppercase {
     text-transform: uppercase;
 }

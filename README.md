@@ -1,8 +1,12 @@
-# Milestone Project One: Japanese Culture Social Club
+# Japanese Culture Social Club
+
+Milestone Project: User-Centric Frontend Development - Code Institute
 
 Ever been interested in learning how to say more than "Konnichiwa"? Want to understand the philosophy behind tea ceremony? Do you think samurai swords look really cool?
 
-If you answered yes to any of these questions, the JSCS Berlin is there to serve your interests. We organize Japanese cultural events throughout the city of Berlin. Membership is free, and we offer a monthly meetup where you can come talk to like-minded people for absolutely free as well.
+If you answered yes to any of these questions, the JSCS Berlin is there to serve your interests. 
+
+We organize Japanese cultural events throughout the city of Berlin. Membership is free, and we offer a monthly meetup where you can come talk to like-minded people for absolutely free as well.
 Other club events, of which there are several each month, are charged individually. Sign-up is risk-free, and you only pay for the events you actually attend.
 Through our cooperation with our many Japanese partners, among them companies and artists, we help diversify our city and bring to it rich cultural content.
 
@@ -63,6 +67,25 @@ The original mockup shows several important differences to the finished product.
 * The original desing did not contain a "Past Events" section. This was included later to serve the technical requirement of including iframes in the website, as well as giving further information to the user.
 * The monthly meetup was originally given a lot more page real estate with its own distinct section. In the finished product, it is represented in a card, similar to all the other events, for visual symmetry. Instead, in order to visually emphasize its uniqueness, it was given a green button that spells 'Free!'
 * The footer originally contained an address and phone number. This was later removed. The reason for that is that the idea to include a .pdf brochure of upcoming events came later in the development process. Additionally, since our target is young and cosmopolitan, a phone number is less needed these days. Also, since JCSC doesn't have a fixed office building, an address was likewise judged superfluous.
+
+
+### Surface Plane
+
+Since the finished project is now accessible, I will skip over this section.
+
+## Features
+
+The website features a responsive navbar that collapses to a button on mobile view.
+
+The website also contains two modals: one triggered by the "Join Me" button prominently displayed on the jumbotron, and one triggered by the "Send" button following the form in the Contact section.
+
+The website currently *does not* contain any embedded maps; instead, img pictures were used as placeholders in the cards.
+
+A downloadable .pdf is included in the footer.
+
+
+
+
 
 
 

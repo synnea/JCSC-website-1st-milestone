@@ -368,7 +368,6 @@ button[type="submit"]:hover {
 /* ----------------- Note: the footer's background color matches the navbar's */
 
 .footer-container {
-    margin: 0;
     background-color: #6b121b;
     max-width: 100%;
     overflow: hidden;
@@ -382,12 +381,13 @@ button[type="submit"]:hover {
     text-align: center;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    max-height: 10vh;
+    max-height: 20%;
 }
 
 .footer-brand {
     text-decoration: none;
 }
+
 
 #footer-details {
     padding-top: 20px;

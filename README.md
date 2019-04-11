@@ -23,7 +23,9 @@ On the strategy plane of UX, the following goals are most important:
 | inform fans       | 5                  | 5           |
 | attract sponsors  | 5                  | 2           |
 
-As can be seen from the matrix, the goals of **increase the number of new members** and **inform fans** are both highly feasible and highly desireable, so they are prioritized. The goal of attracting sponsors, while important,  would necessiate features and additional content that are out of the scope for this website.
+As can be seen from the matrix, the goals of **increase the number of new membersl content that are out of the scope for this website.
+
+Since our audience is generally going to be rather young, cosmopolitan, and hip, we will also need a modern design that ties in with the topic of the website.
 
 ### Scope Plane
 
@@ -32,6 +34,34 @@ With the goals firmly set, next features needed to be decided upon:
 Since users need to be enticed to sign up, a prominent **Join Me** button needs to be displayed. It was thus decided to feature the option to join the club very prominently on the landing page.
 
 Furthermore, the users need to be informed of what it is they are joining. Hence, the rest of the website should be dedicated to fulfill that need, by giving the user easily accessible information on what it is the club does, what the benefits of joining are, and what they can expect to gain from membership.
+
+Using these realizations as a springboard, the following user stories were created:
+
+1. As a first-time user, I want to find out what this website is about.
+2. As a fan of Japanese culture, I want to quickly join this club.
+3. As a user interested in Japanese culture, but unsure about the merits of joining a club, I want to find out what this club offers me.
+4. As a user interested in Japanese, but unwilling to spend any money, I want to stay informed on upcoming events.
+
+### Structure Plane
+
+Next, I decided on the color palette. The landing page background came to me pretty early on in the conception process of this website, and it was from there that I decided on the color palette of the website, which would focus on white, black, and red. These colors are elegant and timeless and lend themselves well to a simple yet visually appealing UI.
+
+Taking the concept of *content hinting* into account, it was also decided here that the front page would show the top of the following section to entice curiosity and get the user to scroll down the page.
+
+In order to best address the user stories above, it was quickly decided that the website needed an **About** section, as well as an **Upcoming Events** and **Contacts** page. A single-page, scrollable website was decided on, in order to relay the information in a linear, logical manner, from About --> Upcoming Events --> Past Events --> Contact.
+
+In this stage, the Information Architecture was also decided upon, with the decision to use Bootstrap cards for upcoming events and to embed YouTube videos and Spotify songs for the Past Event section.
+
+The footer was decided to contain the JSCS logo (*Note: it currently can't be called a logo, as I didn't take the time to design one due to scope restraints, but the JSCS elements in the navbar and footer effectively function as if they were representations of a logo*), another join invitation (*Note: which was later scrapped*), and the social media links.
+
+### Skeleton Plane
+
+At this stage, I created mockups via Balsamiq. The Balsamiq file as well as a .pdf file generated from it are included in the project and can be accessed via assets/wireframes.
+
+The original mockup shows several important differences to the finished product. Here are some of the most important differences, and why the finished product varies from the mockup:
+
+* The original desing did not contain a "Past Events" section. This was included later to serve the technical requirement of including iframes in the website, as well as giving further information to the user.
+* The monthly meetup was originally given a lot more page real estate with its own distinct section. In the finished product, it is represented in a card, similar to all the other events. 
 
 
 https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4

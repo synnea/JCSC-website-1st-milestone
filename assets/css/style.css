@@ -370,6 +370,8 @@ button[type="submit"]:hover {
 .footer-container {
     margin: 0;
     background-color: #6b121b;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .footer-heading {
@@ -428,7 +430,7 @@ button[type="submit"]:hover {
 
 
 
-/* Body  */
+/* Body - the following properties are set in order to disable horizontal scrolling  */
 
 html,
 body {

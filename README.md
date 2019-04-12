@@ -100,7 +100,40 @@ At the bottom of a page, there's a contact form that allows the user to get in t
 
 The cards in the "Upcoming Events" section currently feature a screenshot of a Google Maps location. In a future rework of this project, I would like to embed an interactive map.
 
-The "logo" in the navbar and footer is at present only the 
+The "logo" in the navbar and footer is at present only made a little visually more distinct through its font and font weight. Given the time, I would like to design an actual logo for the website.
+
+ [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    - The project uses **HTML5** to build the structure of the content.
+    
+ [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+    - The project uses **CSS3** to style the content.
+    
+[Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap**, a CSS3 and JavaScript framework, to simplify and empower the CSS3, and to allow JavaScript features to function on the website.
+    
+## Testing
+
+First, I tested the overall responsiveness via the websie [Respinator](https://www.responsinator.com/). The website tests responsiveness on a variety of devices.
+
+At this point, I noticed that my footer was not behaving as it should; it wasn't displaying properly in landscape and iPad width. Going back and changing the Bootstrap grid of the section resolved the issue. 
+
+The cards were not displayed properly at different screen sizes either. I took to Stack Overflow, and this [thread](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4) helped me to resolve the problem.
+
+The "past events" also took a lot of trial and error to get right, in particular the positioning an behavior of the iframes. It was difficult to get the iframes to behave responsively, and I researched the topic a lot until finally finding the embed-responsive Bootstrap class.
+
+I also validated the HTML via [this HTML validator](https://www.freeformatter.com/html-validator.html). 
+
+
+Here are the results of the testing done via the previously defined user stories:
+
+
+
+
+    
+    
+
+    
+    
 
 
 

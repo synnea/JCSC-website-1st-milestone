@@ -123,7 +123,7 @@ First, I tested the overall responsiveness via the websie [Respinator](https://w
 
 At this point, I noticed that my footer was not behaving as it should; it wasn't displaying properly in landscape and iPad width. Going back and changing the Bootstrap grid of the section resolved the issue. 
 
-The cards were not displayed properly at different screen sizes either. I took to Stack Overflow, and this [thread](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4) helped me to resolve the problem.
+The cards were not displayed properly at different screen sizes either. I resolved the problem with a Stack Overflow thread linked to in the Acknowledgements section of this README.
 
 The "past events" also took a lot of trial and error to get right, in particular the positioning an behavior of the iframes. It was difficult to get the iframes to behave responsively, and I researched the topic a lot until finally finding the embed-responsive Bootstrap class.
 
@@ -149,9 +149,9 @@ Here are the results of the testing done via the previously defined user stories
 2. As a fan of Japanese culture, I want to quickly join this club.
     1. I click on the prominently displayed "Join Me" button.
     2. I get prompted to fill in my name and email address. From here the possibilities are:
-        2.1. I fill in a name, but no email address. I try to submit and get an error. I add an email address Move to step 3.
-        2.2 I fill in an email address, but no name. I can't submit, fill in a name, and move to step 3.
-        2.3 I fill in a name, and another name in the email text field. I get an error that my email address needs to contain an @. I fill in my real email address and move to 3.
+        - I fill in a name, but no email address. I try to submit and get an error. I add an email address Move to step 3.
+        - I fill in an email address, but no name. I can't submit, fill in a name, and move to step 3.
+        - I fill in a name, and another name in the email text field. I get an error that my email address needs to contain an @. I fill in my real email address and move to 3.
     3. I click the submit button.
 
 3. As a user interested in Japanese culture, but unsure about the merits of joining a club, I want to find out what this club offers me.
@@ -189,6 +189,6 @@ For many of the other centering questions, I consulted this area of [W3Schools](
 
 I consulted [CSS Tricks](https://css-tricks.com/fun-viewport-units/) for advice on responsive design via the use of viewport heights and widths.
 
-When, during the testing for responsiveness using Responsinator, I noticed that the website still had a horizontal scroll bar, I fixed the issue using [this Stack Overflow thread] (https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll).
+When, during the testing for responsiveness using Responsinator, I noticed that the website still had a horizontal scroll bar, I fixed the issue using [this Stack Overflow thread](https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll).
 
 

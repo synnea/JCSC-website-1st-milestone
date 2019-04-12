@@ -78,6 +78,10 @@ size for mobile */
     font-family: 'Raleway', sans-serif;
 }
 
+.modal-header {
+    padding-left: 40%;
+}
+
 .uppercase {
     text-transform: uppercase;
 }

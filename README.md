@@ -113,6 +113,8 @@ The "logo" in the navbar and footer is at present only made a little visually mo
     
 ## Testing
 
+### Responsiveness Testing
+
 First, I tested the overall responsiveness via the websie [Respinator](https://www.responsinator.com/). The website tests responsiveness on a variety of devices.
 
 At this point, I noticed that my footer was not behaving as it should; it wasn't displaying properly in landscape and iPad width. Going back and changing the Bootstrap grid of the section resolved the issue. 
@@ -121,7 +123,15 @@ The cards were not displayed properly at different screen sizes either. I took t
 
 The "past events" also took a lot of trial and error to get right, in particular the positioning an behavior of the iframes. It was difficult to get the iframes to behave responsively, and I researched the topic a lot until finally finding the embed-responsive Bootstrap class.
 
-I also validated the HTML via [this HTML validator](https://www.freeformatter.com/html-validator.html). 
+### HTML Testing
+
+I also validated the HTML via [this HTML validator](https://www.freeformatter.com/html-validator.html) and fixed a couple of issues. For examples, I'd used width and height and frameborder parameters directly in my HTML for the iframes; the HTML Validator directed me to accomplish the same things with CSS instead.
+
+After all semantic issues such as these were fixed, 15 errors remained. However, they directly contradict what I have learned in the course (such as not to use "_blank" to open a link in another tab), and I therefore chose to ignore them.
+
+### CSS Testing
+
+Next, I validated my CSS via 
 
 
 Here are the results of the testing done via the previously defined user stories:

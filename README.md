@@ -27,7 +27,7 @@ On the strategy plane of UX, the following goals are most important:
 | inform fans       | 5                  | 5           |
 | attract sponsors  | 5                  | 2           |
 
-As can be seen from the matrix, the goals of **increase the number of new membersl content that are out of the scope for this website.
+As can be seen from the matrix, the goals of **increase the number of new members* and *inform fans* are both doable and valuable, and should be prioritized. In contrast, attracting sponsors would be valuable, but requires  content that is currently out of the scope for this website.
 
 Since our audience is generally going to be rather young, cosmopolitan, and hip, we will also need a modern design that ties in with the topic of the website.
 

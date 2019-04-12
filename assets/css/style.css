@@ -36,7 +36,7 @@
 .container-wrapper--lp {
     padding-top: 10vh;
     margin-top: 0 !important;
-    background: url(/assets/images/bg-pic.jpg) no-repeat center center fixed;
+    background: url("https://github.com/synnea/JCSC-website-1st-milestone/blob/master/assets/images/bg-pic.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,12 +76,6 @@ size for mobile */
 
 .modaltext {
     font-family: 'Raleway', sans-serif;
-}
-
-.modal-button {
-    position: absolute;
-    margin: 0 auto;
-    float:none;
 }
 
 .uppercase {

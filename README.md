@@ -102,6 +102,10 @@ The cards in the "Upcoming Events" section currently feature a screenshot of a G
 
 The "logo" in the navbar and footer is at present only made a little visually more distinct through its font and font weight. Given the time, I would like to design an actual logo for the website.
 
+I would also like to improve on the first modal. Currently, it has no real design and it doesn't reward the user with a pop-up that the notification has been sent. Design-wise, the close button should also be nestled in the top right corner, but I didn't figure out to position it well given the time constraints. This will have to be re-worked when I polish up this project at the end of the Code Institute course.
+
+## Technology
+
  [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
     - The project uses **HTML5** to build the structure of the content.
     
@@ -131,11 +135,25 @@ After all semantic issues such as these were fixed, 15 errors remained. However,
 
 ### CSS Testing
 
-Next, I validated my CSS via 
+Next, I validated my CSS via [this tool](https://jigsaw.w3.org/css-validator/). The only errors it returned were in regards to the root CSS directory, of which I'd had no influence. I thus didn't change anything.
 
+### User Story Testing
 
 Here are the results of the testing done via the previously defined user stories:
 
+1. As a first-time user, I want to find out what this website is about.
+    1. I click on the "About" section of the navbar and get to an entire page dedicated to answering this question.
+
+2. As a fan of Japanese culture, I want to quickly join this club.
+    1. I click on the prominently displayed "Join Me" button.
+    2. I get prompted to fill in my name and email address. From here the possibilities are:
+        2.1. I fill in a name, but no email address. I try to submit and get an error. I add an email address Move to step 3.
+        2.2 I fill in an email address, but no name. I can't submit, fill in a name, and move to step 3.
+        2.3 I fill in a name, and another name in the email text field. I get an error that my email address needs to contain an @. I fill in my real email address and move to 3.
+    3. I click the submit button.
+
+3. As a user interested in Japanese culture, but unsure about the merits of joining a club, I want to find out what this club offers me.
+4. As a user interested in Japanese, but unwilling to spend any money, I want to stay informed on upcoming events.
 
 
 

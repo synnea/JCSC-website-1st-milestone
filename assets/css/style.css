@@ -74,11 +74,12 @@ size for mobile */
 }
 
 
-.modaltext {
+
+.modal-text {
     font-family: 'Raleway', sans-serif;
 }
 
-.modal-header {
+.signup-header {
     padding-left: 40%;
 }
 
@@ -345,9 +346,9 @@ with the aim to increase legibility */
     }
 }
 
-/* The submit button's background color matches navbar and footer, changes to the color of the copyright section upon hover */
+/* The "Send" button's background color matches navbar and footer, changes to the color of the copyright section upon hover */
 
-button[type="submit"] {
+.btn-contact {
     margin-top: 3vh;
     margin-bottom: 5vh;
     color: #fff;
@@ -355,7 +356,7 @@ button[type="submit"] {
 
 }
 
-button[type="submit"]:hover {
+.btn-contact:hover {
     background-color: #27070a;
 }
 
@@ -431,6 +432,12 @@ button[type="submit"]:hover {
 .footer-container i:hover {
     background: #27070a
 }
+
+/* "Send" Button Modal */
+
+
+
+
 
 
 

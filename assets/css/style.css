@@ -15,10 +15,17 @@
 
 }
 
-.navbar-brand {
+.logo {
     font-size: 1.3em;
     color: #fff !important;
     margin-top: -8px;
+    font-family: "Raleway";
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: none;
 }
 
 /* Coloring for the navbar link items */
@@ -387,10 +394,6 @@ with the aim to increase legibility */
     margin-top: 3vh;
     margin-bottom: 3vh;
     max-height: 20%;
-}
-
-.footer-brand {
-    text-decoration: none;
 }
 
 

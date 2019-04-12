@@ -153,7 +153,12 @@ Here are the results of the testing done via the previously defined user stories
     3. I click the submit button.
 
 3. As a user interested in Japanese culture, but unsure about the merits of joining a club, I want to find out what this club offers me.
+    1. I click on the "Upcoming Events" link in the navbar.
+    2. I get an overview of several upcoming activities.
+
 4. As a user interested in Japanese, but unwilling to spend any money, I want to stay informed on upcoming events.
+    1. As an unsure user, I might not click on the "join me" button. Though it says it's free, I might still be suspicious. So instead, I scroll through the entire page.
+    2. I arrive at the Contacts page and fill in my details.
 
 
 

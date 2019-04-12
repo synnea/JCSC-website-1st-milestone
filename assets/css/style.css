@@ -85,11 +85,7 @@ size for mobile */
     padding-top: 3vh;
 }
 
-.close-button {
-    position: relative;
-    top:0;
-    right:0;
-}
+
 .modal-text {
     font-family: 'Raleway', sans-serif;
 }
@@ -376,6 +372,12 @@ with the aim to increase legibility */
     background-color: #27070a;
 }
 
+.btn-contact:active {
+    background-color: #fff;
+    color: #000;
+    
+}
+
 .form-check-label {
     color: #fff !important;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -445,7 +447,6 @@ with the aim to increase legibility */
     background: #27070a
 }
 
-/* "Send" Button Modal */
 
 /* Body - the following properties are set in order to disable horizontal scrolling  */
 

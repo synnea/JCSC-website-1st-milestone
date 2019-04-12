@@ -236,9 +236,11 @@ container-wrapper--p-events {
 
 /* ----------------- The bottom padding of the p-events container matches the padding at the bottom of the cards div */
 
-.p-events {
+.p-events-container {
     background-color: #000 !important;
     padding-bottom: 15vh !important;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -250,11 +252,6 @@ container-wrapper--p-events {
     margin-bottom: 10vh;
 }
 
-
-.p-events {
-    margin: 0;
-    padding: 0;
-}
 
 /* Styling for the YouTube Video */
 
@@ -437,12 +434,6 @@ with the aim to increase legibility */
 }
 
 /* "Send" Button Modal */
-
-
-
-
-
-
 
 /* Body - the following properties are set in order to disable horizontal scrolling  */
 

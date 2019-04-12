@@ -82,7 +82,7 @@ The website features a fully responsive navbar that collapses into a dropdown me
 
 The website features an overview of upcoming events. It also showcases past events via a YouTube video and 2 Spotify songs.
 
-The website also contains two modals: one triggered by the "Join Me" button prominently displayed on the jumbotron, and one triggered by the "Send" button following the form in the Contact section.
+The website also contains a modal trigger by the "Join Me" button prominently displayed on the jumbotron.
 
 The website currently *does not* contain any embedded maps; instead, img pictures were used as placeholders in the cards.
 
@@ -94,7 +94,7 @@ The navbar collapses at the top for mobile devices, allowing the user to access 
 
 The website includes a callout button that takes them to a pop-up modal. By filling in their name and email address, they can easily get in touch with the club. The button signs the user up to the email list.
 
-At the bottom of a page, there's a contact form that allows the user to get in touch with the club and opt in to the email list. It triggers a modal that thanks the user for signing up and affirming the receipt of the contact request.
+At the bottom of a page, there's a contact form that allows the user to get in touch with the club and opt in to the email list.
 
 ### Future Features
 
@@ -102,7 +102,7 @@ The cards in the "Upcoming Events" section currently feature a screenshot of a G
 
 The "logo" in the navbar and footer is at present only made a little visually more distinct through its font and font weight. Given the time, I would like to design an actual logo for the website.
 
-I would also like to improve on the first modal. Currently, it has no real design and it doesn't reward the user with a pop-up that the notification has been sent. Design-wise, the close button should also be nestled in the top right corner, but I didn't figure out to position it well given the time constraints. This will have to be re-worked when I polish up this project at the end of the Code Institute course.
+I would also like to improve on the modal. Currently, it has no real design and it doesn't reward the user with a pop-up that the notification has been sent. Design-wise, the close button should also be nestled in the top right corner, but I didn't figure out to position it well given the time constraints. This will have to be re-worked when I polish up this project at the end of the Code Institute course.
 
 ## Technology
 
@@ -126,6 +126,8 @@ At this point, I noticed that my footer was not behaving as it should; it wasn't
 The cards were not displayed properly at different screen sizes either. I took to Stack Overflow, and this [thread](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4) helped me to resolve the problem.
 
 The "past events" also took a lot of trial and error to get right, in particular the positioning an behavior of the iframes. It was difficult to get the iframes to behave responsively, and I researched the topic a lot until finally finding the embed-responsive Bootstrap class.
+
+There was also a horizontal scroll bar showing. I fixed it consulting a Stack Overflow thread linked in the Acknowledgements section of this README.
 
 ### HTML Testing
 
@@ -158,55 +160,35 @@ Here are the results of the testing done via the previously defined user stories
 
 4. As a user interested in Japanese, but unwilling to spend any money, I want to stay informed on upcoming events.
     1. As an unsure user, I might not click on the "join me" button. Though it says it's free, I might still be suspicious. So instead, I scroll through the entire page.
-    2. I arrive at the Contacts page and fill in my details.
+    2. I arrive at the Contacts page and fill in my details. Similarly to user story 2, the user is required to fill out all required fields.
+    3. I click the "Send" button and the page re-loads.
+
+Originally, I had a second modal here that triggered a pop-up. I removed it because it caused a massive bug: the user would be able to clik the button and get a popup thanking them for the sign up even if they hadn't filled anything in. This showed me that I didn't yet have the JavaScript proficiency to implement a fully-working popup here. I thus left the page to reload upon successful completion of the form, as was demonstrated in the Code Institute User-Centric Frontend Course.
+
+## Deployment
+
+The website was deployed to GitHub Pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
+
+Upon discovering that the background images would not load on Github Pages, no matter how I changed the relative file paths - all while the smaller images with the same file path rendered perfectly -- I changed the links to directly link to the images stores on my GitHub repository.
 
 
 
-    
-    
+## Credits
 
-    
-    
+### Media 
 
+Pictures were taken from [Pexels](https://www.pexels.com/) and [MaxPixels](https://www.maxpixel.net/).
 
+### Acknowledgements
 
+Inspiration was drawn from student Aleesang's [Fiona Apple website](https://aleesang.github.io/milestone-project-one/#videos).
 
+In order to solve the problem of centering cards, I consulted [this thread on Stack Overflow](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4).
 
+For many of the other centering questions, I consulted this area of [W3Schools](https://www.w3schools.com/howto/howto_css_image_center.asp).
 
+I consulted [CSS Tricks](https://css-tricks.com/fun-viewport-units/) for advice on responsive design via the use of viewport heights and widths.
 
-
-
-
-
-
-https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4
-
-https://www.w3schools.com/howto/howto_css_image_center.asp
-
-https://stackoverflow.com/questions/22433616/how-can-i-align-youtube-embedded-video-in-the-center-in-bootstrap
-
-https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
-
-https://stackoverflow.com/questions/2570972/css-font-border
-
-https://css-tricks.com/fun-viewport-units/
-
-https://stackoverflow.com/questions/13648979/bootstrap-modal-immediately-disappearing
-
-https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
-
-caught the fact that I've been developing from a desktop-first approach. fixed it with the cards and the cat background.
-
-standardized heading style by using vh top and bottom, except for on the last item 
-
-HTML validator tells me not to use fixed height and width with the Spotify plugins, but the Fiona Apple website begs to differ.
+When, during the testing for responsiveness using Responsinator, I noticed that the website still had a horizontal scroll bar, I fixed the issue using [this Stack Overflow thread] (https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll).
 
 
-
-
-
-
-
-to-do: put button instead of free for monthly meetup card
-
-change hover class of bottom JSCS

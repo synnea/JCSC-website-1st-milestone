@@ -270,11 +270,15 @@ container-wrapper--p-events {
 
 .spotify-pics {
     max-width: 80%;
+    width: 500;
     height: auto;
 }
 
 .spotify-songs {
     max-width: 80%;
+    width:500px;
+    height:125px;
+    border:0;
 }
 
 
